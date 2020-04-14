@@ -1,0 +1,12 @@
+.movie__genre {
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #434670;
+  opacity: 0.15;
+  border: 2px solid #12153d;
+  border-radius: 45px;
+  padding: 10px 20px;
+}

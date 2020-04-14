@@ -1,0 +1,9 @@
+.header__button {
+  background-image: url("../../../images/backsymbol.svg");
+  background-repeat: no-repeat;
+  height: 20px;
+  weight: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  margin: 61px 41px;
+}

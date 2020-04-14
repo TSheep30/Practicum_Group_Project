@@ -1,0 +1,8 @@
+@import url("./__button/vote__button.css");
+@import url("./__title/vote__title.css");
+
+.vote {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}

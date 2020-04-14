@@ -1,0 +1,10 @@
+.vote__button {
+  background-image: url("../../../../../images/whitestar.svg");
+  background-size: 27px 26px;
+  background-repeat: no-repeat;
+  border: none;
+  height: 26px;
+  padding: 0;
+  margin-top: 15px;
+  margin-left: 29px;
+}

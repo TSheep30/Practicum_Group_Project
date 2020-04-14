@@ -1,0 +1,12 @@
+.movie__button {
+  width: 64px;
+  height: 64px;
+  border-radius: 20px;
+  background-color: #fe6d8e;
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  color: #ffffff;
+  margin-left: 120px;
+  margin-top: 20px;
+}
