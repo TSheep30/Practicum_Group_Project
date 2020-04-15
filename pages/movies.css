@@ -1,0 +1,6 @@
+@import url("../blocks/movies/header/header.css");
+@import url("../blocks/movies/movie/movie.css");
+
+.movies {
+  width: 480px;
+}

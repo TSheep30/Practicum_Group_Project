@@ -1,0 +1,9 @@
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 59px;
+}
+
+.cards__item:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,12 @@
+@import url('./_menu/button_menu.css');
+@import url('./_search/button_search.css');
+
+.button {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.button:hover {
+  cursor: pointer;
+}
