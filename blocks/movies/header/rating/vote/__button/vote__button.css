@@ -1,7 +1,8 @@
 .vote__button {
-  background-image: url("../../../../../images/whitestar.svg");
+  background-image: url("../../../../../../images/whitestar.svg");
   background-size: 27px 26px;
   background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0);
   border: none;
   height: 26px;
   padding: 0;

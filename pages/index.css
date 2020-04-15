@@ -1,26 +1,9 @@
-@import url('../vendor/normalize.css');
-@import url('../blocks/index/button/button.css');
-@import url('../blocks/index/content-title/content-title.css');
-@import url('../blocks/index/cards/cards.css');
-@import url('../blocks/index/categories/categories.css');
-@import url('../blocks/index/header/header.css');
-@import url('../blocks/index/page/page.css');
-@import url('../blocks/index/scroll/scroll.css');
-@import url('../blocks/index/statuses/statuses.css');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url("../vendor/normalize.css");
+@import url("../blocks/index/button/button.css");
+@import url("../blocks/index/content-title/content-title.css");
+@import url("../blocks/index/cards/cards.css");
+@import url("../blocks/index/categories/categories.css");
+@import url("../blocks/index/header/header.css");
+@import url("../blocks/index/page/page.css");
+@import url("../blocks/index/scroll/scroll.css");
+@import url("../blocks/index/statuses/statuses.css");

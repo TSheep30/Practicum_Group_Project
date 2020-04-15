@@ -1,14 +1,12 @@
 @import url("./rating/rating.css");
 @import url("./__button/header__button.css");
+@import url("./header_ford-v-ferrari.css");
+@import url("./header_the-departed.css");
 
 .header {
   display: flex;
-  background-image: url("../../../images/ford-v-ferrari.jpg");
   width: 480px;
   height: 352px;
-  border-bottom-left-radius: 30px;
-  background-position-y: 500px;
-  background-position-x: -19px;
   padding: 0;
   margin: 0;
 }
