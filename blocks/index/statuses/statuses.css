@@ -3,6 +3,6 @@
 @import url('./__list/statuses__list.css');
 
 .statuses {
-  padding: 48px 0 16px 32px;
+  padding: 48px 0 16px;
   margin-bottom: 32px;
 }
