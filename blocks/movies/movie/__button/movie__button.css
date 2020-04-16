@@ -7,6 +7,18 @@
   font-weight: 200;
   text-align: center;
   color: #ffffff;
-  margin-left: 120px;
+  margin-left: 10px;
   margin-top: 20px;
+}
+
+@media (min-width: 395px) {
+  .movie__button {
+    margin-left: 90px;
+  }
+}
+
+@media (min-width: 428px) {
+  .movie__button {
+    margin-left: 120px;
+  }
 }
