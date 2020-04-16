@@ -7,3 +7,12 @@
   -webkit-overflow-scrolling: touch; 
   -ms-overflow-style: -ms-autohiding-scrollbar; 
 }
+
+.scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #FE6D8E;
+  border-radius: 100px;
+}
