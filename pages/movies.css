@@ -8,7 +8,7 @@
 @import url("../blocks/movies/scroll/scroll.css");
 @import url("../blocks/index/page/page.css");
 
-
 .movies {
-  width: 480px;
+  max-width: 480px;
+  margin: 0 auto;
 }

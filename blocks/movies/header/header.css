@@ -2,10 +2,11 @@
 @import url("./__button/header__button.css");
 @import url("./header_ford-v-ferrari.css");
 @import url("./header_the-departed.css");
+@import url("./header_relatos-salvajes.css");
 
 .header {
   display: flex;
-  width: 480px;
+  max-width: 480px;
   height: 352px;
   padding: 0;
   margin: 0;
