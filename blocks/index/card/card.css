@@ -1,0 +1,9 @@
+@import url('./__icon/card__icon.css');
+@import url('./__image/card__image.css');
+@import url('./__text/card__text.css');
+@import url('./__title/card__title.css');
+
+.card {
+  display: flex;
+  flex-direction: column;
+}

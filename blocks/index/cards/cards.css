@@ -1,10 +1,4 @@
-@import url('./__icon/cards__icon.css');
-@import url('./__image/cards__image.css');
 @import url('./__item/cards__item.css');
-@import url('./__link/cards__link.css');
-@import url('./__list/cards__list.css');
-@import url('./__text/cards__text.css');
-@import url('./__title/cards__title.css');
 
 .cards {
   margin: 0;
