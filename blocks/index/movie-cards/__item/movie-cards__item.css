@@ -1,0 +1,3 @@
+.movie-cards__item:not(:last-child) {
+  margin-right: 59px;
+}
