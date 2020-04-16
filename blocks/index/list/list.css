@@ -1,0 +1,5 @@
+@import url('./_with-scrollbar/list_with-scrollbar.css');
+
+.list {
+  list-style: none;
+}
