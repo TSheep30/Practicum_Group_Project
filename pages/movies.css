@@ -1,4 +1,7 @@
 @import url("../blocks/movies/header/header.css");
+@import url("../blocks/index/header/header.css");
+@import url("../blocks/index/button/button.css");
+
 @import url("../blocks/movies/movie/movie.css");
 @import url("../blocks/movies/plot/plot.css");
 @import url("../blocks/movies/people/people.css");

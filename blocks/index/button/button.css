@@ -1,10 +1,13 @@
 @import url('./_menu/button_menu.css');
 @import url('./_search/button_search.css');
+@import url('./_back/button_back.css');
 
 .button {
   border: none;
   margin: 0;
   padding: 0;
+  width: 24px;
+  height: 24px;
 }
 
 .button:hover {
