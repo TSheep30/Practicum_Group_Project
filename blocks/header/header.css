@@ -1,0 +1,12 @@
+@import url('./__back/header__back.css');
+@import url('./__back/_ford-v-ferrari/header__back_ford-v-ferrari.css');
+@import url('./__back/_relatos-salvajes/header__back_relatos-salvajes.css');
+@import url('./__back/_the-departed/header__back_the-departed.css');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0;
+  padding: 56px 32px 0 32px;
+}

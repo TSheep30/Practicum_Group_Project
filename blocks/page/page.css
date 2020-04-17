@@ -1,3 +1,7 @@
+* {
+  border: 1px red solid;
+}
+
 .page {
   max-width: 480px;
   margin: 0 auto;
