@@ -5,7 +5,3 @@
 @import url('./_back/icon_back.css');
 @import url('./_rate/icon_rate.css');
 @import url('./_add/icon_add.css');
-
-.icon {
-  display: inline-block;
-}

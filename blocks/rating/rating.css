@@ -1,8 +1,4 @@
-@import url("./score/score.css");
-@import url("./vote/vote.css");
-@import url("./metacritic/metacritic.css");
-
-@import url("./__column/rating__column.css");
+@import url('./__column/rating__column.css');
 
 .rating {
   display: flex;
