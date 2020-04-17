@@ -1,9 +1,0 @@
-@import url('./_no-scrollbar/scroll_no-scrollbar.css');
-
-.scroll {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto; 
-  -webkit-overflow-scrolling: touch; 
-  -ms-overflow-style: -ms-autohiding-scrollbar; 
-}

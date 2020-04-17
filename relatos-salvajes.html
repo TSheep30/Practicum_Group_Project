@@ -1,80 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Relatos Salvajes</title>
-
-    <link rel="stylesheet" href="./pages/movies.css" />
+    <link rel="stylesheet" href="./pages/movies.css"/>
   </head>
 </html>
 <body class="page">
+
+  <!-- Header -->
   <header class="header header__back header__back_relatos-salvajes">
-    <a href="./index.html"><button class="button button_back"></button></a>
+    <a href="./index.html"><button class="button icon icon_back"></button></a>
   </header>
+
   <main>
+
+    <!-- Rating -->
     <section class="rating">
-      <div class="score">
-        <img src="images/goldstar.svg" class="score__image" alt="gold star" />
-        <h2 class="score__title">8.1/10</h2>
-        <p class="score__votes">163,526</p>
+      <div class="rating__column">
+        <div class="icon icon_score"></div>
+        <h2 class="content-text content-text_bold">8.1/10</h2>
+        <p class="content-text content-text_small">163,526</p>
       </div>
-      <div class="vote">
-        <button class="vote__button"></button>
-        <h2 class="vote__title">Rate This</h2>
+      <div class="rating__column">
+        <button class="button icon icon_rate"></button>
+        <h2 class="content-text content-text_bold">Rate This</h2>
       </div>
-      <div class="metacritic">
-        <div class="metacritic__score">77</div>
-        <h2 class="metacritic__title">Metacritic</h2>
-        <p class="metacritic__reviews">308&nbsp;critic&nbsp;reviews</p>
+      <div class="rating__column">
+        <div class="icon icon_metacritic">77</div>
+        <h2 class="content-text content-text_bold">Metacritic</h2>
+        <p class="content-text content-text_small">308 critic reviews</p>
       </div>
     </section>
+
+    <!-- Movie Info -->
     <section class="movie">
-      <h1 class="movie__title">Relatos&nbsp;Salvajes</h1>
-      <button class="movie__button">+</button>
-      <ul class="movie__details">
-        <li class="movie__year">2014</li>
-        <li class="movie__classification">R</li>
-        <li class="movie__runtime">2h 2min</p>
+      <h1 class="content-title">Relatos Salvajes</h1>
+      <button class="button icon icon_add"></button>
+      <ul class="movie-details list">
+        <li class="movie-details__item content-text">2014</li>
+        <li class="movie-details__item content-text">R</li>
+        <li class="movie-details__item content-text">2h 2min</li>
       </ul>
-      <ul class="movie__genres">
-          <li class="category category_small movie__genre">Comedy</li>
-          <li class="category category_small movie__genre">Drama</li>
-          <li class="category category_small movie__genre">Thriller</li>
+      <ul class="movie-categories list scroll scroll_no-scrollbar">
+          <li class="movie-categories__item category category_small">Comedy</li>
+          <li class="movie-categories__item category category_small">Drama</li>
+          <li class="movie-categories__item category category_small">Thriller</li>
       </ul>
     </section>
+    
+    <!-- Plot Summary -->
     <section class="plot">
-        <h2 class="plot__title">Plot Summary</h2>
-        <p class="plot__detail">Six short stories that explore the extremities of human behavior involving people in distress. </p>
+      <h2 class="plot__title content-subtitle">Plot Summary</h2>
+      <p class="content-text content-text_paragraph">Six short stories that explore the extremities of human behavior involving people in distress. </p>
     </section>
+
+    <!-- People -->
     <section class="people">
-        <h2 class="people__title">Cast & Crew</h2>
-        <ul class="people__list scroll scroll_no-scrollbar">
-            <li class="people__card">
-                <img src="images/DamiánSzifron.png" class="people__photo" alt="Damian Szifron">
-                <p class="people__name">Damián Szifron</p>
-                <p class="people__occupation">Director</p>
-            </li>
-            <li class="people__card">
-                <img src="images/DarionGrandinetti.png" class="people__photo" alt="Darion DarionGrandinetti">
-                <p class="people__name">Darion Grandinetti</p>
-                <p class="people__occupation">Salgado</p>
-            </li>
-            <li class="people__card">
-                <img src="images/MariaMarull.png" class="people__photo" alt="maria marull">
-                <p class="people__name">Maria Marull</p>
-                <p class="people__occupation">Isabel</p>
-            </li>
-            <li class="people__card">
-                <img src="images/MonicaVilla.png" class="people__photo" alt="Monica Villa">
-                <p class="people__name">Monica Villa</p>
-                <p class="people__occupation">Leguizamon</p>
-            </li>
-            
-            
-        </ul>
+      <h2 class="people__title content-subtitle">Cast & Crew</h2>
+      <ul class="people__grid">
+          <li class="person-card">
+              <img src="./images/damian-szifron.jpg" class="person-card__photo" alt="Damian Szifron">
+              <p class="person-card__text content-text content-text_bold">Damian Szifron</p>
+              <p class="person-card__text content-text">Director</p>
+          </li>
+          <li class="person-card">
+              <img src="./images/darion-grandinetti.jpg" class="person-card__photo" alt="Darion Grandinetti">
+              <p class="person-card__text content-text content-text_bold">Darion Grandinetti</p>
+              <p class="person-card__text content-text">Salgado</p>
+          </li>
+          <li class="person-card">
+              <img src="./images/maria-marull.jpg" class="person-card__photo" alt="Maria Marull">
+              <p class="person-card__text content-text content-text_bold">Maria Marull</p>
+              <p class="person-card__text content-text">Isabel</p>
+          </li>
+          <li class="person-card">
+              <img src="./images/monica-villa.jpg" class="person-card__photo" alt="Monica Villa">
+              <p class="person-card__text content-text content-text_bold">Monica Villa</p>
+              <p class="person-card__text content-text">Leguizamon</p>
+          </li>
+      </ul>
     </section>
+    
   </main>
 </body>
 </html>

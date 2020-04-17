@@ -1,9 +1,0 @@
-@import url("./__image/score__image.css");
-@import url("./__title/score__title.css");
-@import url("./__votes/score__votes.css");
-
-.score {
-  display: flex;
-  flex-direction: column;
-  width: 50px;
-}

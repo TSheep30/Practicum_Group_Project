@@ -1,0 +1,5 @@
+@import url('./__item/movie-categories__item.css');
+
+.movie-categories {
+  flex-basis: 100%;
+}

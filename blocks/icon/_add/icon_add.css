@@ -1,0 +1,9 @@
+.icon_add {
+  background: #FE6D8E url('../../../images/add_icon.svg') center no-repeat;
+  border-radius: 20px;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 48px;
+  right: 32px;
+}

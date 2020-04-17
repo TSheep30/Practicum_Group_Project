@@ -1,7 +1,0 @@
-@import url("../plot/__title/plot__title.css");
-@import url("../plot/__detail/plot__detail.css");
-
-.plot {
-  margin-left: 32px;
-  margin-top: 50px;
-}

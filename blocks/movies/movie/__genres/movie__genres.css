@@ -1,8 +1,0 @@
-.movie__genres {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  margin: 0;
-  width: 320px;
-  justify-content: space-between;
-}

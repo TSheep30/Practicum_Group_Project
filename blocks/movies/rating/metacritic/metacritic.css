@@ -1,9 +1,0 @@
-@import url("./__score/metacritic__score.css");
-@import url("./__title/metacritc__title.css");
-@import url("./__reviews/metacritic__reviews.css");
-
-.metacritic {
-  display: flex;
-  flex-direction: column;
-  width: 86px;
-}

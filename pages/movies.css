@@ -1,10 +1,18 @@
 @import url("../blocks/header/header.css");
-@import url("../blocks/movies/rating/rating.css");
+@import url("../blocks/rating/rating.css");
 @import url("../blocks/button/button.css");
 @import url("../blocks/category/category.css");
-@import url("../blocks/movies/movie/movie.css");
-@import url("../blocks/movies/plot/plot.css");
-@import url("../blocks/movies/people/people.css");
-@import url("../blocks/movies/scroll/scroll.css");
+@import url("../blocks/movie/movie.css");
 @import url("../blocks/page/page.css");
+@import url("../blocks/content-title/content-title.css");
+@import url("../blocks/content-subtitle/content-subtitle.css");
+@import url("../blocks/content-text/content-text.css");
+@import url("../blocks/icon/icon.css");
+@import url("../blocks/list/list.css");
+@import url("../blocks/scroll/scroll.css");
+@import url("../blocks/movie-details/movie-details.css");
+@import url("../blocks/movie-categories/movie-categories.css");
+@import url("../blocks/plot/plot.css");
+@import url("../blocks/people/people.css");
+@import url("../blocks/person-card/person-card.css");
 

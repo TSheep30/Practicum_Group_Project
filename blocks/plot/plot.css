@@ -1,0 +1,5 @@
+@import url('./__title/plot__title.css');
+
+.plot {
+  padding: 0 32px 24px 32px;
+}

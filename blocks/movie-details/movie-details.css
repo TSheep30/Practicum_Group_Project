@@ -1,0 +1,6 @@
+@import url('./__item/movie-details__item.css');
+
+.movie-details {
+  padding: 8px 0 20px;
+  flex-basis: 100%;
+}

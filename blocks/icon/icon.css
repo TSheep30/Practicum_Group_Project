@@ -1,0 +1,11 @@
+@import url('./_metacritic/icon_metacrtitic.css');
+@import url('./_score/icon_score.css');
+@import url('./_search/icon_search.css');
+@import url('./_menu/icon_menu.css');
+@import url('./_back/icon_back.css');
+@import url('./_rate/icon_rate.css');
+@import url('./_add/icon_add.css');
+
+.icon {
+  display: inline-block;
+}
