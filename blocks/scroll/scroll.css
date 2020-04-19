@@ -1,0 +1,17 @@
+@import url('./_no-scrollbar/scroll_no-scrollbar.css');
+
+.scroll {
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  -webkit-overflow-scrolling: touch; 
+  -ms-overflow-style: -ms-autohiding-scrollbar; 
+}
+
+.scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: #FE6D8E;
+  border-radius: 100px;
+}

@@ -1,0 +1,3 @@
+.movie-details__item:not(:last-child) {
+  margin-right: 16px;
+}

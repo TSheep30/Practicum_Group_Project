@@ -1,0 +1,9 @@
+@import url("./__title/movie__title.css");
+
+.movie {  
+  padding: 48px 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+}

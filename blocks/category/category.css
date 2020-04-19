@@ -1,0 +1,11 @@
+@import url('./_large/category_large.css');
+@import url('./_small/category_small.css');
+
+.category {
+  border: 1.5px solid rgb(18, 21, 61, 0.15);
+  box-sizing: border-box;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #434670;
+  padding: 8px 24px;
+}

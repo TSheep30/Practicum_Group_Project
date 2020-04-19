@@ -1,0 +1,6 @@
+@import url('./__item/movie-cards__item.css');
+
+.movie-cards {
+  margin: 0;
+  padding: 72px 0;
+}

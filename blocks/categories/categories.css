@@ -1,0 +1,6 @@
+@import url('./__item/categories__item.css');
+
+.categories {
+  margin: 0;
+  padding-left: 32px;
+}

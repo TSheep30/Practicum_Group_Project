@@ -1,0 +1,8 @@
+@import url('./__photo/person-card__photo.css');
+@import url('./__text/person-card__text.css');
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

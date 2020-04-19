@@ -1,0 +1,3 @@
+.movie__title {
+  max-width: calc(100% - 64px);
+}

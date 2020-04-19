@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movies Finder</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+
+  <body class="page">
+    <!-- Header -->
+    <header class="header">
+      <button class="button icon icon_menu"></button>
+      <button class="button icon icon_search"></button>
+    </header>
+
+    <main>
+      <!-- Statuses -->
+      <section class="statuses">
+        <ul class="list list_with-scrollbar scroll">
+          <li class="statuses__item statuses__item_active content-title">
+            In Theater
+          </li>
+          <li class="statuses__item content-title">Box Office</li>
+          <li class="statuses__item content-title">Coming Soon</li>
+        </ul>
+      </section>
+
+      <!-- Categories -->
+      <section class="categories">
+        <ul class="list scroll scroll_no-scrollbar">
+          <li class="categories__item category category_large">Action</li>
+          <li class="categories__item category category_large">Crime</li>
+          <li class="categories__item category category_large">Comedy</li>
+          <li class="categories__item category category_large">Drama</li>
+        </ul>
+      </section>
+
+      <!-- Movies -->
+      <section class="movie-cards">
+        <ul class="list scroll scroll_no-scrollbar">
+          <li class="movie-cards__item movie-card">
+            <a href="./ford-v-ferrari.html" class="content-link">
+              <img
+                src="./images/ford-v-ferrari.jpg"
+                alt="Ford v Ferrari"
+                class="movie-card__image"
+              />
+              <p class="content-title movie-card__title">Ford v Ferrari</p>
+              <p class="movie-card__text">
+                <img
+                  src="./images/goldstar_icon.svg"
+                  alt="Icon: Gold Star"
+                  class="movie-card__icon"
+                />
+                8.2
+              </p>
+            </a>
+          </li>
+          <li class="movie-cards__item movie-card">
+            <a href="./the-departed.html" class="content-link">
+              <img
+                src="./images/the-departed.jpg"
+                alt="The Departed"
+                class="movie-card__image"
+              />
+              <p class="content-title movie-card__title">The Departed</p>
+              <p class="movie-card__text">
+                <img
+                  src="./images/goldstar_icon.svg"
+                  alt="Icon: Gold Star"
+                  class="movie-card__icon"
+                />
+                8.5
+              </p>
+            </a>
+          </li>
+          <li class="movie-cards__item movie-card">
+            <a href="./relatos-salvajes.html" class="content-link">
+              <img
+                src="./images/relatos-salvajes.jpg"
+                alt="Relatos Salvajes"
+                class="movie-card__image"
+              />
+              <p class="content-title movie-card__title">Relatos Salvajes</p>
+              <p class="movie-card__text">
+                <img
+                  src="./images/goldstar_icon.svg"
+                  alt="Icon: Gold Star"
+                  class="movie-card__icon"
+                />
+                8.1
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

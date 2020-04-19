@@ -1,0 +1,9 @@
+@import url('./__icon/movie-card__icon.css');
+@import url('./__image/movie-card__image.css');
+@import url('./__text/movie-card__text.css');
+@import url('./__title/movie-card__title.css');
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,13 @@
+@import url('./__column/rating__column.css');
+
+.rating {
+  display: flex;
+  box-shadow: 0px 5px 50px rgba(18, 21, 61, 0.3);
+  margin-left: 32px;
+  margin-top: -50px;
+  padding: 18px 0;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+}

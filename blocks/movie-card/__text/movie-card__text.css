@@ -1,0 +1,10 @@
+.movie-card__text {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #434670;
+  margin: 0;
+  padding: 0;
+}

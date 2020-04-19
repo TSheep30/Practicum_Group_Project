@@ -1,0 +1,10 @@
+.list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.list_with-scrollbar {
+  padding-bottom: 16px;
+}

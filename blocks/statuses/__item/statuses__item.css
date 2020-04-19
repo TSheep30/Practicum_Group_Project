@@ -1,0 +1,9 @@
+.statuses__item {
+  margin-right: 40px;
+  white-space: nowrap;
+  opacity: 0.3
+}
+
+.statuses__item:last-child {
+  margin-right: 0;
+}
